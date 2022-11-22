@@ -2,9 +2,11 @@
 
 Thanks to Ben Major for his work: https://github.com/benmajor/PHP-Image-Resize put into MIT.
 
-I adapt it to support the newer image format WebP. I also remove any support for bmp, tmp. Maybe I do some more changes. Check out the code differences.  
+At first I wanted to add support for the newer image format 'WebP'. I ended up to modify quite a bit. Check out the code differences.  
 
-I removed all other files than src/ImageResize.php. I only focus on that script. Thats not best practice of forking I guess. Maybe someone likes to make a cleaner fork with support for WebP.  
+This version uses public class vars, the output function takes a filname, watermark and text is removed, etc.  
+
+I removed all the other files. Only ImageResize.php for direct including. 
 
 License goes from MIT to JSON. (JSON License = MIT + Ethics)
 
